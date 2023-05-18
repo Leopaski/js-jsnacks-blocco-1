@@ -1,8 +1,8 @@
-const oddNumber =[];
-for (i=0; i<5;i++) {
+const oddNumberlist =[];
+for (i=0; i<6;i++) {
     const userNumber = parseInt(prompt ('Inserisci un numero'));
     if (userNumber % 2 !=0){
-        oddNumber.push(userNumber)
+        oddNumberlist.push(userNumber)
     }
+    console.log (oddNumberlist);
 }
-console.log (oddNumber)
