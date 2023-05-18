@@ -23,7 +23,7 @@ const VIPlist=[
     'Valentina Vezzali',
 ]
 const findName = prompt('Inserisci il nome dell invitato');
-for (i=0, i< VIPlist.length, i++) {
+for (i=0; i< VIPlist.length; i++) {
     if(findName==VIPlist[i]){
         console.log('Buonasera signora/signor'+ $ {VIPlist[i].value} + 'la porto al suo tavolo')
     } else {
