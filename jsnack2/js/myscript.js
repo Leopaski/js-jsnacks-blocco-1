@@ -25,7 +25,7 @@ const VIPlist=[
 const findName = prompt('Inserisci il nome dell invitato');
 for (i=0, i< VIPlist.length, i++) {
     if(findName==VIPlist[i]){
-        console.log('Buonasera signora/signor'+ $ {VIPlist[i]:value} + 'la porto al suo tavolo')
+        console.log('Buonasera signora/signor'+ $ {VIPlist[i].value} + 'la porto al suo tavolo')
     } else {
         console.log('Siamo desolati, ma lei non è stato invitato');
     }
